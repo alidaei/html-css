@@ -1,9 +1,21 @@
-.text {
-  color: red;
-  font-weight: 700;
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.text2 {
-  color: green;
-  font-size: 25px;
-  font-weight: 200;
+.child {
+  width: 100px;
+  height: 100px;
+}
+.child-1 {
+  background-color: red;
+}
+.child-2 {
+  background-color: green;
+}
+.child-3 {
+  background-color: yellow;
+}
+.child-4 {
+  background-color: blue;
 }
